@@ -47,20 +47,9 @@ This project uses Supabase for:
 Clone the repository:
 
 ```bash
-git clone [https://github.com/msaibabu2006-marker/stayflow-hotel-booking-monolithic-ui-v5-cancellation-email_using _superbase.git](https://github.com/YOUR_USERNAME/stayflow-hotel-booking-monolithic-ui-v5-cancellation-email_using_superbase.git)
+git clone [https://github.com/msaibabu2006-maker/stayflow-hotel-booking-monolithic-ui-v5-cancellation-email_using _superbase.git](https://github.com/msaibabu2006-maker/stayflow-hotel-booking-monolithic-ui-v5-cancellation-email_using_superbase.git)
 ```
 
-Move into the project directory:
-
-```bash
-cd stayflow-hotel-booking-monolithic-ui-v5-cancellation-email
-```
-
-Install the required dependencies:
-
-```bash
-npm install
-```
 
 ## Environment Variables
 
@@ -76,22 +65,8 @@ VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFz
 ## Running the Project
 
 Start the development server:
-
-```bash
-npm run dev
-```
-
-Build the application:
-
-```bash
-npm run build
-```
-
-Preview the production build:
-
-```bash
-npm run preview
-```
+python seed_demo_data.py
+python app.py
 
 ## Project Workflow
 
@@ -102,27 +77,7 @@ npm run preview
 5. Users can cancel eligible bookings.
 6. A cancellation notification email is sent after successful cancellation.
 
-## Project Structure
 
-```text
-src/
-├── components/       # Reusable user-interface components
-├── pages/            # Application pages
-├── services/         # Supabase and application services
-├── hooks/            # Custom React hooks
-├── utils/            # Helper functions
-├── App.jsx           # Main application component
-└── main.jsx          # Application entry point
-```
-
-## Security
-
-- Do not commit `.env` files.
-- Do not expose Supabase service-role keys.
-- Enable Row Level Security for database tables.
-- Validate booking ownership before allowing cancellation.
-- Store private email credentials in secure server-side environment variables.
-- Use GitHub Secrets for deployment credentials.
 
 ## Deployment
 
