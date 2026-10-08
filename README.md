@@ -8,7 +8,7 @@ The application uses Supabase for database management and supports a complete bo
 
 ## Live Demo
 
-[Visit StayFlow Hotel Booking](https://your-live-website-url.com)
+(http://127.0.0.1:5000)
 
 ## Features
 
@@ -47,7 +47,7 @@ This project uses Supabase for:
 Clone the repository:
 
 ```bash
-git clone [https://github.com/msaibabu2006-marker/stayflow-hotel-booking-monolithic-ui-v5-cancellation-email_using _superbase.git](https://github.com/YOUR_USERNAME/stayflow-hotel-booking-monolithic-ui-v5-cancellation-email.git)
+git clone [https://github.com/msaibabu2006-marker/stayflow-hotel-booking-monolithic-ui-v5-cancellation-email_using _superbase.git](https://github.com/YOUR_USERNAME/stayflow-hotel-booking-monolithic-ui-v5-cancellation-email_using_superbase.git)
 ```
 
 Move into the project directory:
@@ -67,11 +67,11 @@ npm install
 Create a `.env` file in the root directory and add your Supabase details:
 
 ```env
-VITE_SUPABASE_URL=[https://your-project-id.supabase.co](https://your-project-id.supabase.co)
-VITE_SUPABASE_ANON_KEY=your-public-anon-key
+VITE_SUPABASE_URL=[https://(https://fpbxowkawpewgdwyifbg.supabase.co).supabase.co](https://https://fpbxowkawpewgdwyifbg.supabase.co.supabase.co)
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZwYnhvd2thd3Bld2dkd3lpZmJnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA5NzA1NTksImV4cCI6MjEwNjU0NjU1OX0.XE9PvEpQ2OcztCxVYJJTsTHKp-U9V1OOLW-uJw1opuI
 ```
 
-Do not upload the `.env` file to GitHub. Add it to `.gitignore` to protect your credentials. Only public Supabase client values should be used in frontend code; private service-role keys must remain server-side. [8]
+
 
 ## Running the Project
 
